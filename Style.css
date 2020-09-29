@@ -814,10 +814,18 @@ footer {
     }
     
     header .button-row {
-        margin-top: 20px;
+        margin-top: 10px;
     }
     header .imagebox {
         height: 400px;
+    }
+    
+    header .Swapnil-description {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);;
+        padding-bottom: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
 
