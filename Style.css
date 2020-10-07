@@ -159,6 +159,7 @@ nav.desk-nav .menu-icon, .mobile-nav {
         display: block;
         cursor: pointer;
     }
+    
     .mobile-nav {
     display: flex;
     height: 65vh;
@@ -695,7 +696,7 @@ color: #37393E;
 .Education .degree {
     letter-spacing: 0.10em;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     color: #37393E;
     text-align: center;
     margin-top: 10px;
@@ -736,6 +737,17 @@ color: #37393E;
     margin: 0 auto;
     padding-top: 11px;
     padding-bottom: 13px;
+}
+
+.Achievements .Achieve-Description .bold {
+    font-weight: 600;
+font-size: 18px;
+letter-spacing: 0.02em;
+}
+
+.Achievements .Achieve-Description .light {
+    font-weight: 400;
+    color: #75787E;
 }
 
 .Education h3 {
