@@ -433,7 +433,16 @@ color: #FFFFFF;
 }
 .Projects .project3 .projimage {
     background-image: url(Proj3.png);
+    background-position: center;
+    text-decoration: none;
+    transition: 0.5s ease;  
 }
+.Projects .project3 .projimage:hover {
+    background-size: 110%;
+    
+}
+
+
 .Projects .project4 .projimage {
     background-image: url(proj4.png);
 }
