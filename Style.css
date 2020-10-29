@@ -27,7 +27,7 @@ html {
 }
 
 .About-Research h1, .Journal-Publications h1, .Conference-Publications h1, .Education h1, 
-.Achievements h1 {
+.Achievements h1, .RecentHighlights h1 {
     font-weight: 500;
     font-size: 35px;
     letter-spacing: 0.05em;
@@ -519,16 +519,12 @@ color: #707B86;
     border-top: 4px solid #37393E;
 }
 
-
-
 .Journal-Publications .Journal-Papers {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 61px;
     justify-items: center;
 }
-
-
 
 .Journal-Publications .ThumbJournal {
     padding-top: 23px;
@@ -726,6 +722,7 @@ color: #37393E;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 /*##### ACHIEVEMENTS #####*/
 
 .Achievements {
@@ -779,6 +776,20 @@ letter-spacing: 0.02em;
     font-size: 20px;
     letter-spacing: 0.07em;
     color: #37393E;
+}
+
+/*##### RECENTS #####*/
+
+.RecentHighlights a {
+    text-decoration: none;
+}
+
+.RecentHighlights h2 {
+    color: #37393E;
+}
+
+.RecentHighlights p {
+    color: #75787E;
 }
 
 /*##### FOOTER #####*/
